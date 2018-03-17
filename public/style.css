@@ -13,4 +13,13 @@ html
 	margin-top: 200px;
 	text-align: center;
 	opacity: 0.50;
-};
+}
+#title{
+	color: white;
+}
+#link{
+	color: white;
+}
+#saved{
+	color: white;
+}

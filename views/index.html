@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WoW Scraper</title>
+    <link rel="stylesheet" href="style.css">
+	  <script src="https://code.jquery.com/jquery.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+	<ul class="nav nav-pills">
+  
+  <li id="home" role="presentation"><a href="/">Home</a></li>
+  <li id="savedArticles" role="presentation"><a href="/saved">Saved Articles</a></li>
+  <li id="scrapeNew" role="presentation"><a href="/scrape">Scrape New Articles</a></li>
+</ul>
+
+<div class="jumbotron">
+  <h1>Mongo Scraper</h1>
+  <p>WoW Sub Edition</p>
+  
+</div>
+<div class="table">
+	<table style="width:100%" align="center">
+		<thead>
+			<tr>
+				<th id="title">
+					Title
+				</th>
+					
+				<th id="link">
+					Link
+				</th>
+			</tr>
+		</thead>
+		<tbody id="results">
+			
+		</tbody>
+		
+	</table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
+
